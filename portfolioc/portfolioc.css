@@ -1,0 +1,210 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: rgb(14, 15, 13);
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.logo img {
+    max-height: 40px;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    background-image: linear-gradient(gray,yellowgreen);
+    padding: 50px;
+    text-align: center;
+}
+
+#home {
+    padding: 20px;
+    text-align: center;
+}
+.home-section {
+    background-image: linear-gradient(gray,yellowgreen);
+    padding:100px;
+    text-align: center;
+}
+#home {
+    height: 50vh;
+    text-align: center;
+}
+#home h4{
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+#about {
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(gray,yellowgreen);
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.text {
+    max-width: 50%; 
+}
+
+
+
+#skills {
+    text-align: center;
+    margin-top: 50px;
+    background-image: linear-gradient(yellowgreen, gray);
+}
+
+.centered-points {
+    list-style-type: none;
+    padding: 0;
+}
+
+.centered-points li {
+    margin-bottom: 10px;
+}
+
+
+.image-container {
+    max-width: 50%; 
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+#project {
+    background-image: linear-gradient(gray,yellowgreen);
+    text-align: center;
+    margin-top: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px auto; 
+}
+
+.grid-header,
+.grid-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.grid-header {
+    font-weight: bold;
+    background-color: gray;
+}
+
+.grid-image {
+    min-width: 100px; 
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+#resume {
+    background-image: linear-gradient(yellowgreen, gray);
+    text-align: center;
+    margin-top: 50px; 
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.download-image {
+    max-width: 100%; 
+    height: auto;
+}
+
+.download-link a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgb(76, 75, 75);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.download-link a:hover {
+    background-color: yellowgreen;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+
+
+#contact {
+    background-image: linear-gradient(yellowgreen, gray);
+    text-align: center;
+    margin-top: 50px; 
+    color: #141414;
+}
+
+.contact-info {
+   
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.contact-number,
+.email-address {
+    font-weight: bold;
+    color: #1b1b1c; 
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: hsl(180, 1%, 24%);
+    margin: 0 5px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
